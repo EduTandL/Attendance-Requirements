@@ -2,7 +2,7 @@
 window.addEventListener('load', function(){
 // define expiration duration as 72 hours
 	//const expirationDuration = 1000 * 60 * 60 * 144;
-	const expirationDuration = 1000 * 60 * 2;
+	const expirationDuration = 1000 * 60 * 1;
 // save the time of the current login to localStorage
 	const savedTime = localStorage.getItem('savedTime');
 // get the time of the current login

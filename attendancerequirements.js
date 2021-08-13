@@ -1,5 +1,6 @@
 // define expiration duration as 144 hours/7 days
-	const expirationDuration = 1000 * 60 * 60 * 144;
+	//const expirationDuration = 1000 * 60 * 60 * 144;
+const expirationDuration = 1000 * 60 * 2;
 // save the time of the current login to localStorage
 	const savedTime = localStorage.getItem('savedTime');
 // get the time of the current login

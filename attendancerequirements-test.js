@@ -12,7 +12,7 @@ window.addEventListener('load', function(){
 // make a constant that refers to when the login has a history, and meets the requirements to display the notification again
 	const AcceptedExpired = savedTime != undefined && currentTime - savedTime > expirationDuration;
 // Australian attendance requirements notification
-	$('.sectionname').before(<div class="modal" tabindex="-1" role="dialog">
+	<div class="modal" tabindex="-1" role="dialog">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -29,7 +29,7 @@ window.addEventListener('load', function(){
       </div>
     </div>
   </div>
-</div>);
+</div>;
 // if there is not a current login or if the timer set has expired, then show the notification, then store the current time in the browser's local storage for comparison on next login.
   		if(notAccepted || AcceptedExpired){
   			$('#giveThisAName').modal('show');
